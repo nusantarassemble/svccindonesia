@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top:hover {
   background: #6bc1e9;
-  color: #fff;
+  color: #47b2e4;
 }
 .back-to-top.active {
   visibility: visible;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #47b2e4;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -210,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #FFFFFF;
+  color: #47b2e4;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
