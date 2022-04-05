@@ -81,13 +81,62 @@
   if (selectHeader) {
     const headerScrolled = () => {
       if (window.scrollY > 100) {
+        selectHeader.classList.remove('no-scrolled')
         selectHeader.classList.add('header-scrolled')
       } else {
+        selectHeader.classList.add('no-scrolled')
         selectHeader.classList.remove('header-scrolled')
       }
     }
     window.addEventListener('load', headerScrolled)
     onscroll(document, headerScrolled)
+  }
+
+  let selectnavbar = select('.nav-link')
+  if (selectnavbar) {
+    const navbarScrolled = () => {
+      if (window.scrollY > 100) {
+        selectnavbar.classList.remove('no-scrolled')
+        selectnavbar.classList.add('nav-link')
+      } else {
+        selectnavbar.classList.add('no-scrolled')
+        selectnavbar.classList.remove('nav-link')
+      }
+    }
+    window.addEventListener('load', navbarScrolled)
+    onscroll(document, navbarScrolled)
+  }
+
+  let selectmobile = select('.mobile-nav-toggle')
+  if (selectmobile) {
+    const navbarmobile = () => {
+      if (window.scrollY > 100) {
+        selectmobile.classList.remove('no-scrolled')
+        selectmobile.classList.add('nav-link')
+      } else {
+        selectmobile.classList.add('no-scrolled')
+        selectmobile.classList.remove('nav-link')
+      }
+    }
+    window.addEventListener('load', navbarmobile)
+    onscroll(document, navbarmobile)
+  }
+
+  let selectlogop = select('#logo img')
+  if (selectlogop) {
+    const logoscroll = () => {
+      if (window.scrollY > 100) {
+        selectlogop.src="assets/img/0111 (1).png"
+        // selectlogop.classList.remove('no-scrolled')
+        // selectlogop.classList.add('nav-link')
+      } else {
+        selectlogop.src="assets/img/putih.png"
+        // selectlogop.classList.add('no-scrolled')
+        // selectlogop.classList.remove('nav-link')
+      }
+    }
+    window.addEventListener('load', logoscroll)
+    onscroll(document, logoscroll)
   }
 
   /**
