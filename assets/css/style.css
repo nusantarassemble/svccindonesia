@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
-  color: #fff;
+  color: #0d6efd;
   font-size: 14px;
   border: 2px solid #47b2e4;
   font-weight: 600;
@@ -780,7 +780,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(#236889, rgba(40, 58, 90, 0.9)), url("../img/bg web.png") fixed center center;
+  background: linear-gradient(#236889, rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
