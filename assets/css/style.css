@@ -343,7 +343,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #236889;
+  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)), url("../img/papua.jpeg") fixed center center;
+ background-position: 20%;
 }
 #hero .container {
   padding-top: 72px;
@@ -780,7 +781,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(#236889, rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)), url("../img/sulawesi.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
