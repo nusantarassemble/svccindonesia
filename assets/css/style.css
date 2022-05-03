@@ -366,7 +366,7 @@ h6 {
   height: 80vh;
   background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)),
     url('../img/rumahAdatToraja.jpg') fixed center center;
-  background-position: 50%;
+  background-position: 25%;
 }
 #hero .container {
   padding-top: 72px;
