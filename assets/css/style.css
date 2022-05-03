@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #444444;
 }
 
@@ -23,8 +23,13 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Jost', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -42,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
@@ -110,9 +115,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
- 
 }
-#header.header-scrolled, #header.header-inner-pages {
+#header.header-scrolled,
+#header.header-inner-pages {
   background: #fff;
   color: #236889;
 }
@@ -128,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
   color: #fff;
 }
- .no-scrolled *{
+.no-scrolled * {
   color: #fff !important;
 }
 #header .logo img {
@@ -144,10 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   padding: 0;
 }
-.nav-scroll{
+.nav-scroll {
   color: #0d6efd !important;
 }
-.nav-scroll:hover{
+.nav-scroll:hover {
   color: #47b2e4 !important;
 }
 .navbar ul {
@@ -160,7 +165,8 @@ h1, h2, h3, h4, h5, h6 {
 .navbar li {
   position: relative;
 }
-.navbar a, .navbar a:focus {
+.navbar a,
+.navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -170,15 +176,20 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar a i, .navbar a:focus i {
+.navbar a i,
+.navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
   color: #47b2e4;
 }
-.navbar .getstarted, .navbar .getstarted:focus {
+.navbar .getstarted,
+.navbar .getstarted:focus {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 50px;
@@ -187,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #47b2e4;
   font-weight: 600;
 }
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
   color: #fff;
   background: #31a9e1;
 }
@@ -219,7 +231,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 .navbar .dropdown:hover > ul {
@@ -299,15 +313,19 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
 }
-.navbar-mobile a, .navbar-mobile a:focus {
+.navbar-mobile a,
+.navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: #37517e;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
   color: #47b2e4;
 }
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
   margin: 15px;
   color: #37517e;
 }
@@ -331,7 +349,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
   color: #47b2e4;
 }
 .navbar-mobile .dropdown > .dropdown-active {
@@ -344,8 +364,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)), url("../img/papua.jpeg") fixed center center;
- background-position: 20%;
+  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)),
+    url('../img/rumahAdatToraja.jpg') fixed center center;
+  background-position: 50%;
 }
 #hero .container {
   padding-top: 72px;
@@ -363,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -483,7 +504,7 @@ section {
   color: #37517e;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 120px;
@@ -493,7 +514,7 @@ section {
   left: calc(50% - 60px);
 }
 .section-title h2::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 40px;
@@ -560,7 +581,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -624,7 +645,7 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -664,7 +685,8 @@ section {
   display: none;
 }
 @media (max-width: 1024px) {
-  .why-us .content, .why-us .accordion-list {
+  .why-us .content,
+  .why-us .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
@@ -693,7 +715,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #37517e;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .skills .content ul {
   list-style: none;
@@ -722,7 +744,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #37517e;
 }
 .skills .progress .skill .val {
@@ -782,7 +804,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)), url("../img/sulawesi.jpeg") fixed center center;
+  background: linear-gradient(#8c9091, rgba(40, 58, 90, 0.9)),
+    url('../img/sulawesi.jpeg') fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -795,7 +818,7 @@ section {
   color: #fff;
 }
 .cta .cta-btn {
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -842,9 +865,10 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   background: #47b2e4;
   color: #fff;
 }
@@ -880,7 +904,8 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.portfolio .portfolio-item .portfolio-info .preview-link,
+.portfolio .portfolio-item .portfolio-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
@@ -888,7 +913,8 @@ section {
   color: #fff;
   transition: 0.3s;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+.portfolio .portfolio-item .portfolio-info .preview-link:hover,
+.portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #47b2e4;
 }
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -918,14 +944,20 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #47b2e4;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #47b2e4;
 }
 .portfolio-details .portfolio-info {
@@ -998,7 +1030,7 @@ section {
   font-weight: 500;
 }
 .team .member span::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 50px;
@@ -1066,7 +1098,7 @@ section {
   font-size: 48px;
   color: #37517e;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   margin-bottom: 25px;
 }
 .pricing h4 sup {
@@ -1112,7 +1144,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   transition: 0.3s;
   border: 1px solid #47b2e4;
 }
@@ -1171,7 +1203,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1186,7 +1218,8 @@ section {
   left: 20px;
   color: #47b2e4;
 }
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+.faq .faq-list .icon-show,
+.faq .faq-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -1221,7 +1254,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
+.contact {
   background: #f3f5fa;
 }
 
@@ -1283,7 +1316,9 @@ section {
   background: #47b2e4;
   color: #fff;
 }
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #47b2e4;
   color: #fff;
 }
@@ -1331,7 +1366,7 @@ section {
   padding: 15px;
 }
 .contact .php-email-form .loading:before {
-  content: "";
+  content: '';
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1348,13 +1383,15 @@ section {
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #47b2e4;
 }
 .contact .php-email-form input {
@@ -1363,7 +1400,7 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type='submit'] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -1371,7 +1408,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type='submit']:hover {
   background: #209dd8;
 }
 @-webkit-keyframes animate-loading {
@@ -1425,7 +1462,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #4668a2;
-  content: "/";
+  content: '/';
 }
 
 /*--------------------------------------------------------------
@@ -1459,12 +1496,12 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
   text-align: left;
 }
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type='email'] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type='submit'] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1479,7 +1516,7 @@ section {
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type='submit']:hover {
   background: #209dd8;
 }
 #footer .footer-top {
@@ -1502,7 +1539,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: 'Jost', sans-serif;
   color: #5e5e5e;
 }
 #footer .footer-top h4 {
@@ -1583,7 +1620,8 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  #footer .copyright, #footer .credits {
+  #footer .copyright,
+  #footer .credits {
     text-align: center;
     float: none;
   }
