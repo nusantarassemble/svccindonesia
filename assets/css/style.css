@@ -478,31 +478,94 @@ h6 {
     transform: translateY(-10px);
   }
 }
+
+/* -------------------------------------------------------------
+ Owl Carousel
+---------------------------------------------------------------*/
+.owl-carousel {
+  width: 100%;
+  height: 100vh;
+}
+.slide {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slide-1 {
+  background-image: url('/assets/img/rumahAdatToraja.jpg');
+}
+.slide-2 {
+  background-image: url('/assets/img/VR\ I.png');
+}
+.slide-content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 28%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.slide-content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.slide-content p {
+  font-size: 1.1rem;
+}
+.owl-dots {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 1%;
+}
+.owl-dots span {
+  width: 20px !important;
+  height: 20px !important;
+}
+.owl-dots button {
+  border: none !important;
+  outline: none !important;
+}
+.owl-nav button {
+  border: none !important;
+  outline: none !important;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff !important;
+  font-size: 60px !important;
+  font-weight: bolder !important;
+  background: none !important;
+}
+.owl-next {
+  right: 1%;
+}
+.owl-prev {
+  left: 1%;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-#slideDaerah {
-  height: 100vh;
-  background: linear-gradient(#464949, rgba(30, 43, 66, 0.9));
-  padding: 0;
-}
-#slideDaerah .carousel-caption {
-  top: 35%;
-}
-#slideDaerah .carousel-caption h1 {
-  font-size: 3em;
-  font-weight: 800;
-}
-#slideDaerah .carousel-caption p {
-  font-size: 1.3em;
-  padding-top: 10px;
-}
-
 section {
   padding: 60px 0;
   overflow: hidden;
 }
-
 .section-bg {
   background-color: #f3f5fa;
 }
