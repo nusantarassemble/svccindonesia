@@ -16,6 +16,13 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,12 +44,11 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h2 class="logo me-auto" id="logo" ><img src=""></img></h2>
+      <h2 class="logo me-auto" id="logo" ><img src="assets/img/putih.png"/></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/0111 (1).png" alt="" class="img-fluid"></a>-->
 
@@ -61,7 +67,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle nav-link"></i>
       </nav><!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 
@@ -85,6 +90,23 @@
     </div>
 
   </section><!-- End Hero -->
+  
+  <div class="owl-carousel owl-theme">
+    <div class="slide slide-1 text-center">
+      <div class="container content-wrapper-1">
+      <div class="slide-content text-center p-5">
+        <h1>NUSANTARA ASSEMBLE <br> TO EXPLORE TORAJA</h1>
+        <p>Salama' sitammu mali' sia salama' Umperasai apa ba'ru tu apa Taek bang pa den mi appa' dolona.</p>
+      </div>
+    </div>
+    </div>
+    <div class="slide slide-2">
+      <div class="slide-content text-center p-5">
+        <h1>SMARTEYE VIRTUAL CONVENTION CENTER <br> AND 3D DESIGN ANIMATION</h1>
+        <p>Nusantara Assemble to Explore Toraja  adalah Sebuah Produk SmartEye Virtual Convention Center yang menyuguhkan Virtual Expo dan Webinar dengan tujuan memperkenalkan dan memperalajari Kebudayaan Toraja melalui konsep dunia imersif dengan penggabungan 360° panorama dari 3D Desain Animasi yang membuatmu merasakan berada di Toraja dimanapun dan kapanpun kamu menggunakannya.</p>
+      </div>
+    </div>
+  </div>
 
   <main id="main">
 
@@ -378,8 +400,25 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
+  <!-- JQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Owl CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Custom Script -->
+  <script>
+  $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+      items:1,
+      loop:true,
+      nav:true,
+      dots:true,
+      autoplay:true,
+      autoplaySpeed:1000,
+      smartSpeed:1500,
+      autoplayHoverPause:true,
+      
+    });
+    
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
   (function(){
   var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
